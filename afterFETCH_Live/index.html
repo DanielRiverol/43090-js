@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>After FETCH LIVE | 43090</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12">
+          <h1>OpenLibra API</h1>
+        </div>
+      </div>
+      <div class="row">
+        <form class="col s12" action="">
+          <div class="row">
+            <div class="input-field col s12 m7">
+              <i class="material-icons prefix">search</i>
+              <input id="input_text" type="text" data-length="10" />
+              <label for="input_text"
+                >Buscar libro... (si son dos palabras o más use comillas)</label
+              >
+            </div>
+            <div class="input-field col s12 m5">
+              <select class="select-option">
+                <option value="" disabled selected>
+                  Seleccione una opción
+                </option>
+                <option value="category">Categoría</option>
+                <option value="book_title">Título</option>
+                <option value="book_author">Autor</option>
+                <option value="keyword">Palabra clave</option>
+              </select>
+            </div>
+          </div>
+          <button type="button" class="btn">Enviar</button>
+        </form>
+      </div>
+
+      <div class="row" id="contenedor">
+        <!-- Contenido dinámico -->
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+[
+    {
+       "value":"book_author",
+       "option":"Autor"
+    },
+    {
+       "value":"book_title",
+       "option":"Título"
+    },
+    {
+       "value":"category",
+       "option":"Categoría"
+    },
+    {
+       "value":"keyword",
+       "option":"Palabra clave"
+    },
+    {
+       "value":"publisher_date",
+       "option":"Año"
+    },
+    {
+       "value":"publisher",
+       "option":"Editorial"
+    },
+    {
+       "value":"lang",
+       "option":"Idioma"
+    }
+ ]
